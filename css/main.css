@@ -1,0 +1,39 @@
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+h1, h2 {
+	text-align: center;
+	color:white;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 300px;
+  height=auto;
+  color: white;
+  display: block;
+table-layout: fixed;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+p {
+	text-align: center;
+	color: white;
+}
+
+div {text-align: center;}
+body{background-color:black;}
