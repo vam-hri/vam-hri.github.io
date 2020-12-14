@@ -11,6 +11,29 @@ h1, h2 {
 	color:white;
 }
 
+a:link {
+  color: #4f8f8c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 table {
   font-family: arial, sans-serif;
