@@ -56,6 +56,10 @@ td, th {
 p {
 	text-align: center;
 	color: white;
+  max-width: 500px;
+  border-collapse: collapse;
+   display: block;
+   margin: 0 auto !important; 
 }
 
 div {text-align: center;}
