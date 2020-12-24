@@ -1,4 +1,17 @@
-.responsive {
+.disabled {
+  cursor: not-allowed!important;
+  pointer-events: auto!important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/*.responsive {
   width: 100%;
   height: auto;
   max-width: 600px;
@@ -110,4 +123,4 @@ p {
 }
 
 div {text-align: center;}
-body{background-color:black;}
+body{background-color:black;}*/
