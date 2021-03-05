@@ -4,7 +4,7 @@
 
 ----
 
-![](previous/2020/assets/images/vamhri2020-logo.png)
+![](previous/2020/assets/images/vamhri2020-logo-flushed.png)
 
 ----
 
