@@ -1,6 +1,10 @@
 # [VAM-HRI Website](https://vam-hri.github.io/)
 
-![](assets/images/logo2021-flushed.png)
+![](assets/images/VAM-HRI-2022-Logo.png)
+
+----
+
+![](previous/2021/assets/images/logo2021-flushed.png)
 
 ----
 
