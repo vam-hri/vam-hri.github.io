@@ -1,0 +1,110 @@
+/* custom styles
+-----------------
+*/
+
+body {
+    background-color: black;
+}
+
+.site-wrapper {
+    position: relative;
+}
+
+.site-wrapper-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.background {
+
+    background-image: url('../images/background.jpg');
+    background-color: black; /* fallback color */
+    background-position: center;
+    background-size: cover;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    position: relative;
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.background-stable {
+    transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.inner.cover {
+    background-image: url('../images/logo-hover.png'); 
+    background-size: 100%; 
+    padding: 0;
+}
+
+.logo:hover {
+    opacity: 0.0;
+}
+
+.logo:hover {
+    z-index: 999;
+    cursor: pointer;
+}
+
+.animate-half {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.animate-full {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.info-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-color: #28a745;
+    border-radius: 10px;
+}
+
+.text-green-faded {
+    color: #b8ffc7;
+}
+
+.text-blue-faded {
+    color: #bdbcff;
+}
+
+.ibm-color {
+    color: #2070c0;
+}
+
+.asu-color {
+    color: #ffb311;
+}
+
+.mines-color {
+    color: #0b4eaa;
+}
+
+.ucb-color {
+    color: #cfb87c;
+}
+
+.usafa-color {
+    color: #275098;
+}
