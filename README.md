@@ -4,6 +4,10 @@
 
 ----
 
+![](previous/2023/assets/images/VAM-HRI-2023-Logo.png)
+
+----
+
 ![](previous/2022/assets/images/VAM-HRI-2022-Logo.png)
 
 ----
