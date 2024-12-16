@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="icon" href="assets/images/favicon.ico">
+
+        <title>VAM-HRI 2020</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Fontawesome v5.3.1 -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+        <!-- Custom styles -->
+        <link href="assets/css/custom.css" rel="stylesheet">
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+        <!-- Custom scripts -->
+        <script src="assets/js/custom.js"></script>
+
+        <style type="text/css">
+          /* kill scrolling */
+          html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 100vh;
+          }
+
+          /* blow up landing font on small screens */
+          @media (max-width:1000px) {
+            body {
+              font-size: 24px!important;
+            }
+          }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="row landing">
+
+            <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+
+                <a href="http://vam-hri.xyz/"><img src="assets/images/vamhri2020-logo.png" width="100%"></a>
+
+                <ul class="list-group list-group-flush m-3">
+                    <a class="list-group-item d-flex justify-content-between align-items-center text-danger" id="program-button" href="program">Program <span class="badge badge-danger">2020-08-10</span></a>
+                    <a href="call" class="list-group-item d-flex justify-content-between align-items-center text-success" id="cfp-button">Call for Papers <span class="badge badge-secondary">Submissions closed</span></a>
+                    <a class="list-group-item text-primary" id="org-team-button" href="organizing-team">Organizing Team</a>
+                    <a class="list-group-item text-dark" id="hri-2020-button" href="http://humanrobotinteraction.org/2020/">About HRI 2020</a>
+                    <li class="list-group-item" id="mem-button"><a class="badge badge-secondary text-light" href="../2018">Chicago &middot; 2018</a> <a class="badge badge-secondary text-light" href="../2019">Daegu &middot; 2019</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-9 d-none d-lg-block" style="background-image: url('assets/images/cover.png'); background-repeat: no-repeat; background-size: 100% auto;">
+
+              <div style="position: relative; min-height: 200px;">
+
+                <div style="position: absolute; top: 12px; right: 12px;">
+
+                    <div class="toast" role="alert" id="alert-2">
+                      <div class="toast-header text-primary">
+                        <i class="fas fa-robot"></i> &nbsp; &nbsp;
+                        <strong class="mr-auto">Join us live!</strong>
+                        <small>2020-08-09</small>
+                        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+                          <span>&times;</span>
+                        </button>
+                      </div>
+                      <div class="toast-body text-primary">
+                        VAM-HRI will be held on Aug 10, 2020. There is no registration, join us through Slack and Zoom.
+                      </div>
+                    </div>
+
+                    <div class="toast" role="alert" id="alert-0">
+                      <div class="toast-header">
+                        <i class="fab fa-twitter"></i> &nbsp; &nbsp;
+                        <strong class="mr-auto">News and Social Media</strong>
+                        <small>2018-12-01</small>
+                        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+                          <span>&times;</span>
+                        </button>
+                      </div>
+                      <div class="toast-body">
+                        Check out our <kbd class="bg-light"><a href="https://www.aaai.org/ojs/index.php/aimagazine/article/view/2822" class="text-info">AI Magazine</a></kbd> article on VAM-HRI 2018. If you are tweeting about virtual, augmented and mixed-reality for human-robot interactions, make sure to tag your post with <a href="https://twitter.com/tchakra2/timelines/964752265880862721" target="_blank">#vamhri</a>!
+                      </div>
+                    </div>
+
+                    <a class="twitter-timeline" data-height="500" data-partner="tweetdeck" data-theme="light" href="https://twitter.com/tchakra2/timelines/964752265880862721?ref_src=twsrc%5Etfw">VAM-HRI 2018 - Curated tweets by tchakra2</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </body>
+</html>

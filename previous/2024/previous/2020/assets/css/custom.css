@@ -1,0 +1,49 @@
+/* custom styles
+-----------------
+*/
+
+.landing {
+    height: inherit;
+}
+
+#cfp-button:hover {
+    background-color: rgba(0, 255, 0, 0.1);
+    text-decoration: none;
+}
+
+#org-team-button:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+    text-decoration: none;
+}
+
+#hri-2020-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+#program-button:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+.text-blue {
+    color: #2d498a;
+}
+
+.invited {
+    border-left: none;
+    border-right: none;
+}
+
+.invited .member {
+    padding-left: 0!important;
+}
