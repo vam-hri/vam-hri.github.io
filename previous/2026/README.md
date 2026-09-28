@@ -1,5 +1,9 @@
 # [VAM-HRI Website](https://vam-hri.github.io/)
 
+![](assets/images/logo_2025.png)
+
+----
+
 ![](assets/images/logo_2024.png)
 
 ----
